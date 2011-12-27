@@ -12,7 +12,7 @@ To prevent future woes, I hereby present the ShipDaily blood pact.
 * Thou shall ship 1 feature or bug fix for a side project each day.
 * Thou shall post 1 update each day to the website, updates shall include a git commit sha.
 * Thou shall donate $5-20 to the pot for each missed shipping day. (whatever you can afford)
-* Thou shall embrace the practices of brogramming (hoods up, glasses on.) 
+* Thou shall embrace the practices of brogramming (hoods up, shades on, dubstep blasting.) 
 * Thou shalt ignore your hacker brethren in need of programming help.
 * Thou shalt falsify a feature or bug fix, or you shall face penalties as severe as death at the stake.
 
