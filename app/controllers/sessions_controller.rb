@@ -1,5 +1,6 @@
 class SessionsController < ApplicationController
   def new
+    redirect_to "/auth/#{params[:provider]}"
   end
 
   def create

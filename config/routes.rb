@@ -1,7 +1,11 @@
 Shipdaily::Application.routes.draw do
-  root :to => "sessions#new"
-  
-  match "/auth/:provider/callback" => "sessions#create", :as => "login"
+  get "static/index"
+
+  get "static/about"
+
+  root :to => "static#index"
+  match "/auth/:provider" => "sessions#new", :as => "login"
   match "/logout" => "sessions#destroy", :as => "logout"
+  match "/auth/:provider/callback" => "sessions#create"
   match "/auth/failure" => "sessions#failure"
 end
